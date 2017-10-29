@@ -1,0 +1,149 @@
+<title>Academics</title>
+
+<html>
+<head>
+	<title>Agraj Gupta homepage</title>
+	<style type = "text/css">
+	body
+	{background-image: url('background1.jpg');
+	background-repeat: repeat;}
+	</style>
+
+<!--sjdsahjdhjsalabajdsfjnhdsfkdsfklhdsfjklh-->
+<!--sjdsahjdhjsalabajdsfjnhdsfkdsfklhdsfjklh>
+<!sjdsahjdhjsalabajdsfjnhdsfkdsfklhdsfjklh-->
+<sjdsahjdhjsalabajdsfjnhdsfkdsfklhdsfjklh-->
+</head>
+<body>
+
+<center>
+
+<h1 style="background-color: #FFDEAD"> Academics</h1>
+
+<table width="1200">
+<tr>
+<td width="200" bgcolor="white">
+
+
+<h3><a href="mainpage.html">Home</a><br />
+<a href="academics.html">Academics</a><br />
+<a href="internship.html">Internships & Projects</a><br />
+<a href="sports.html">Sports</a><br />
+<a href="resume.pdf" target="_blank">Resume</a><br /></h3>
+<iframe src="http://free.timeanddate.com/clock/i2fpj6tc/szw110/szh110/hoc9b8578/hbw10/hfc754c29/cf100/hnc432f30/fav0/fiv0/mqcfff/mqs4/mql25/mqw12/mqd78/mhcfff/mhs2/mhl5/mhw2/mhd78/mmv0/hhcfff/hhs2/hhl50/hhw8/hmcfff/hms2/hml70/hmw8/hmr4/hscfff/hss3/hsl70/hsw3" frameborder="0" width="112" height="112"></iframe>
+<iframe src="http://free.timeanddate.com/clock/i2fpjbtr/fn7/fs16/ftb/tt0/tw0/tm1/ts1/tb4" frameborder="0" width="100" height="40"></iframe>
+</td>
+
+<td width="800">
+
+		<hr/>
+		<h2>Courses</h2>
+		<hr/>
+		<h3>Economics</h3>
+		<hr/>
+		<ol>
+			<li>Microeconomics</li>
+			<li>Macroeconomics</li>
+			<li>Microeconomics-II(Gametheory and General Equilibrium)</li>
+			<li>Macroeconomics Advanced</li>
+			<li>Econometrics Methods</li>
+			<li>Econometrics Practices</li>
+			<li>Development Economics</li>
+			<li>Economic Problems and Policy</li>
+			<li>Environmental Economics</li>
+			<li>International Economics</li>
+			<li>Economic Regulation & Intellectual Property Rights</li>
+			<li>Industrial Economics</li>
+			<li>International Economics</li>
+			<li>Planning Techniques</li>
+			<li>Input Output Analysis</li>
+			<li>Money and Banking </li>
+			<li>Financial economics</li>
+			<li>Mathematical Economics*</li>
+			<li>Economic Analysis of Law*</li>
+		</ol>
+		<hr/>
+		<h3>Mathematics and Computing</h3>
+		<hr/>
+		<ul>	
+			<li>Introduction to Computing</li>
+			<li>Programming Tools and Techniques*</li>
+			<li>Regression Analysis*</li>
+			<li>Probablity and Statistics</li>
+			<li>Differential Equations</li>
+			<li>Real Analysis and Calculus</li>
+			<li>Complex Analysis and Linear Algebra</li>
+		</ul>	
+		<hr/>
+		<h3>Other Humanities Courses</h3>
+		<hr/>
+		<ul>
+			<li>Professional Communication</li>
+			<li>Global Communication*</li>
+			<li>Introduction to Sociology</li>
+			<li>Introduction to Philosophy</li>
+			<li>Ethics and Society</li>
+		</ul>
+		<hr/>
+		<h3>Other Sciencs and Engineering Courses</h3>	
+		<hr/>
+		<ul>	
+			<li>Introduction to Electronics</li>
+			<li>Engineering Graphisc</li>	
+			<li>Manufacturing Processes and Techniques</li>
+			<li>Nature and Properties of Materials</li>
+			<li>Mechanics and Relativity</li>
+			<li>Electrodyanamics</li>
+		</ul>
+		<hr/>
+<p>* indicates 'in progress'</p>
+
+</td>
+
+<p>dl;kfdsl;fkl;dsakfl;dskfdskl;dskfjdgkjfgkjfkjfdkgjfdkjgkfjgkfdjgkdfjgfdjgklfdjgkldjfgkjfgkljfdgkjfdkgjfdkgjkfjgkfjgkfjgkjfdkgjfdkgjkfdjgggggggggggdffffffffgkmfdmm'/n'mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmgfdlfgkjfgkf</p>
+<td width="200" bgcolor="white">
+
+<h4>Contact me</h4>
+<address>
+
+Agraj Gupta<br>
+Room No A205<br>
+Hall of Residence 1<br>
+Indian Institute of Technology<br> 
+Kanpur Campus<br>
+Kanpur<br>
+Uttar Pradesh<br>
+India-208016<br>
+
+<a href="mailto:agrajg@iitk.ac.in">Email me</a>
+
+</address>
+
+</td>
+</tr>
+</table>
+<hr/>
+<table width="1200">
+<tr>
+<td width="300">
+<h3><a href="http://www.iitk.ac.in" target="_blank">IIT Kanpur</a></h3>
+</td>
+<td width="300">
+<h3><a href="http://www.iitk.ac.in/hss/n_disciplines/economics.htm" target="_blank" >Economics, IIT Kanpur</a></h3>
+</td>
+<td width="300">
+<h3><a href="roger.html" target="_blank">Roger Federer</a></h3>
+</td>
+<td width="300">
+<h3><a href="gallery1.html" target="_blank">Gallery</a></h3>
+</td>
+</tr>
+</table>
+<hr/>
+<a href="mainpage.html">Back to Home</a>
+</center>
+
+
+</body>	
+
+</html>	

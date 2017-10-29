@@ -1,0 +1,181 @@
+<html>
+<body>
+<script>
+document.write("Javascript Assignment: Agraj gupta Y7028");
+var info = new Array(7);
+function form_check()
+{
+	var fn=document.agraj_form.firstname.value;		
+	if(fn == null || fn=="")
+	{
+		alert("Please enter your first name !!")
+		document.agraj_form.firstname.focus();
+		return false;
+	}
+
+	var alphabets = /^[a-zA-Z]+$/;
+	if(! fn.match(alphabets))
+	{
+		alert("Your First Name should have only Alphabtes and no spaces !!")
+		document.agraj_form.firstname.focus();
+		return false;
+	}
+  	var ln=document.agraj_form.lastname.value;		
+	if(ln == null || ln=="")
+	{
+		alert("Please enter your last name !!")
+		document.agraj_form.lastname.focus();
+		return false;
+	}
+	var alphabets = /^[a-zA-Z]+$/;
+	if(! ln.match(alphabets))
+	{
+		alert("Your Last Name should have only Alphabtes and no spaces !!")
+		document.agraj_form.lastname.focus();
+		return false;
+	}		
+	
+
+	var un=document.agraj_form.username.value;
+	var lun = un.length;
+	
+	
+	if(un == null || un=="")
+	{
+		alert("Please enter your user name !!")
+		document.agraj_form.username.focus();
+		return false;
+	}
+	
+	if(lun>=12 || lun<=2)
+	{
+		alert("Your Username should have more than 3 and less than 12 charectars !!")
+		document.agraj_form.username.focus();
+		return false;
+	}
+
+	var phstr = document.agraj_form.mobile.value;
+	if(phstr == null || phstr=="")
+	{
+		alert("Please enter your Phone Number !!")
+		document.agraj_form.mobile.focus();
+		return false;
+	}
+	if(isNaN(phstr))
+	{
+		alert("This is not a valid phone number ");
+		document.agraj_form.mobile.focus();
+		return false;
+	}
+	if (!(phstr.length == 10)) 
+	{
+		alert("Your phone Number should have 10 charectars")
+		document.agraj_form.mobile.focus();
+		return false;
+	}
+
+	var c1 = document.agraj_form.cost1.value;
+	var c2 = document.agraj_form.cost2.value;
+
+
+	if(c1 == null || c1=="")
+	{
+		alert("Please enter Cost of Item 1 !!")
+		document.agraj_form.cost1.focus();
+		return false;
+	}
+	if(isNaN(c1))
+	{
+		alert("This is not a Cost ");
+		document.agraj_form.cost1.focus();
+		return false;
+	}
+	if(parseInt(c1) != parseFloat(c1) || parseFloat(c1) < 0)
+	{	
+		alert("Cost of Item 1 should be a whole number")
+		document.agraj_form.cost1.focus();
+		return false;
+	}
+
+	if(c2 == null || c2=="")
+	{
+		alert("Please enter Cost of Item 2 !!")
+		document.agraj_form.cost2.focus();
+		return false;
+	}
+	if(isNaN(c2))
+	{
+		alert("This is not a Cost ");
+		document.agraj_form.cost1.focus();
+		return false;
+	}
+	if(parseInt(c2) != parseFloat(c2) || parseFloat(c2) < 0)
+	{	
+		alert("Cost of Item 2 should be a whole number")
+		document.agraj_form.cost2.focus();
+		return false;
+	}
+	var costsum = parseInt(c1)+ parseInt(c2);
+	info[0] = fn;
+	info[1] = ln;
+	info[2] = un;
+	info[3] = phstr;
+	info[4] = c1;	
+	info[5] = c2;
+	info[6] = costsum;
+	alert("Name :"+fn+" "+ln+"\n"+"Username : "+un+"\n"+"Phone : "+phstr+"\n"+"Cost of Item 1 : "+c1+"\n"+"Cost of Item 2 : "+c2+"\n"+"Total Cost : "+costsum+"\n"+"Press OK to finish form"+"\n");
+	sendinfo();
+}
+
+function sendinfo()
+	{
+ 		var putcomma = "";
+  		for (i = 0; (i < info.length); i++) 
+		{
+			if (i > 0) 
+			{
+				putcomma += ",";
+			}
+			putcomma += escape(info[i]);
+  		}
+  		window.location = "confirm.html?" + putcomma;
+	}
+
+</script>
+
+
+<form name="agraj_form">
+<center>
+<table border="1" width = "320">
+<tr>
+<td width="120">First Name	</td><td><input type="text" id="firstname" size ="20" /></td>
+</tr>
+<tr>
+<td width="120">Last Name	</td><td><input type="text" name="lastname" size ="20" /><br/></td>
+</tr>
+<tr>
+<td width="120">Username*	</td><td><input type="text" id="username" size ="20" /><br/></td>
+</tr>
+<tr>
+<td width="120">Mobile Number*	</td><td><input type="text" id="mobile" size ="20" /><br/></td>
+</tr>
+<tr>
+<td width="120">Cost of Item 1*	</td><td><input type="text" id="cost1" size ="20" /><br/></td>
+</tr>
+<tr>
+<td width="120">Cost of item 2*	</td><td><input type="text" id="cost2" size ="20" /><br/></td>
+</tr>
+<tr>
+<td>* indicates required</td>
+<td width="120"><input type="button" value="Submit !!" onclick="form_check()" /><br/></td>
+</tr>
+</table>
+
+</center>
+
+
+
+
+</body>
+</html>
+

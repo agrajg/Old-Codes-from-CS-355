@@ -1,0 +1,5 @@
+This program removes tags of HTML.
+It uses Start Conditions to specifically focus on opening and closing tags.
+It also removes comments from HTML file.
+It takes only one file as input and displays output in the terminal.
+It identifies headers uniquely and also the lists.
